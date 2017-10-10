@@ -16,13 +16,13 @@ void go(String doing,int speed,int msec) {
         int core[4] = {1,1,1,1};
         break;
     case 'back':
-        int core[4] = {1,1,1,1};
+        int core[4] = {1,0,1,0};
         break;
     case 'left':
-        int core[4] = {1,1,1,1};
+        int core[4] = {0,1,1,1};
         break;
     case 'right':
-        int core[4] = {1,1,1,1};
+        int core[4] = {1,1,0,1};
         break;
   }
   analogWrite(whee_l[0], core[0]);
@@ -38,13 +38,13 @@ void go(String doing,int msec) {
         int core[4] = {1,1,1,1};
         break;
     case 'back':
-        int core[4] = {1,1,1,1};
+        int core[4] = {1,0,1,0};
         break;
     case 'left':
-        int core[4] = {1,1,1,1};
+        int core[4] = {0,1,1,1};
         break;
     case 'right':
-        int core[4] = {1,1,1,1};
+        int core[4] = {1,1,0,1};
         break;
   }
   digitalWrite(whee_l[0], core[0]);
