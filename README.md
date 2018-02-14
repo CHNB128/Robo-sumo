@@ -1,6 +1,7 @@
 # Algorithm
 
-Neural network will use for analyse situation at evry moment of work. Result of working NN will be function name, that will be require at evry time, when alalysi will compleat.
+Neural network will use for analyse situation at evry moment of work. 
+Result of working NN will be function name, that will be require at evry time, when alalysi will compleat.
 
 # To-do
 
